@@ -8,11 +8,11 @@ HTML structure
 
 CSS styling
 
-Basic JavaScript for interactivity (theme toggling)
+Basic JavaScript for interactivity 
 
 The webpage includes a functional button that allows users to switch between light and dark modes, making the interface more user-friendly and visually adaptable.
 
- Group Members
+Group Members
 
 CT100/G/21583/24 Mbugua Alfred
 
@@ -20,7 +20,7 @@ CT100/G/21601/24 Kimosop Brian
 
 CT100/G/21804/24 Mwangi Francis
 
-CT100/G/KINUTHIA Joy
+CT100/G/21919/24 Kinuthia Joy
 
 CT100/G/22226/24 Aticha Philip
 
@@ -32,10 +32,11 @@ CT100/G/22669/24 Kidelo Cynthia
 
 index.html – main webpage containing the light/dark theme toggle button
 
+style.css – contains all styling for light and dark themes
+
+script.js – JavaScript code for the theme toggle functionality
+
 README.md – project documentation
-
-(add CSS or JavaScript files here if separate)
-
  Project Purpose
 
 The goal of this assignment was to:
@@ -48,7 +49,7 @@ Create a simple, user-friendly theme toggle for light and dark modes
 
 This project can serve as a small template for any webpage that needs a dark mode/light mode feature.
 
- How to View the Project
+How to View the Project
 
 Clone or download the repository:
 
@@ -57,12 +58,12 @@ git clone https://github.com/philipAticha/form-project.git
 
 Open index.html in any modern web browser (Chrome, Edge, Firefox)
 
-(Optional) You can also view the project live using GitHub Pages if enabled.
+ You can also view the project live using GitHub Pages if enabled.
 
- Technologies Used
+Technologies Used
 
 HTML5
 
-CSS3
+CSS3 (style.css)
 
-JavaScript
+JavaScript (script.js)
