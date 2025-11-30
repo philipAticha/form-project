@@ -1,10 +1,16 @@
-Group 6 – HTML Form Assignment
+Group 6 – Light/Dark Theme Toggle Assignment
 
-This repository contains Group 6’s web development assignment, which involved creating a functional HTML form to collect user input. The project demonstrates our understanding of HTML structure, form controls, and basic user interaction.
+This repository contains Group 6’s web development assignment, which involved creating a webpage with a button to toggle between light and dark themes.
 
-The form includes elements such as text inputs, email fields, radio buttons, checkboxes, dropdowns, and a submit button.
+The project demonstrates our understanding of:
 
-This assignment was completed collaboratively as part of our coursework.
+HTML structure
+
+CSS styling
+
+Basic JavaScript for interactivity (theme toggling)
+
+The webpage includes a functional button that allows users to switch between light and dark modes, making the interface more user-friendly and visually adaptable.
 
  Group Members
 
@@ -24,23 +30,23 @@ CT100/G/22669/24 Kidelo Cynthia
 
  Files Included
 
-index.html – main webpage containing the form
+index.html – main webpage containing the light/dark theme toggle button
 
 README.md – project documentation
 
-(add other files here if applicable, e.g., CSS files, images)
+(add CSS or JavaScript files here if separate)
 
  Project Purpose
 
 The goal of this assignment was to:
 
-Practice structuring HTML pages
+Practice using HTML, CSS, and JavaScript together
 
-Implement various form controls
+Implement interactive functionality on a webpage
 
-Understand how to collect and organize user input
+Create a simple, user-friendly theme toggle for light and dark modes
 
-The form can be used as a simple template for collecting data like registration information, feedback, or surveys.
+This project can serve as a small template for any webpage that needs a dark mode/light mode feature.
 
  How to View the Project
 
@@ -53,8 +59,10 @@ Open index.html in any modern web browser (Chrome, Edge, Firefox)
 
 (Optional) You can also view the project live using GitHub Pages if enabled.
 
-Technologies Used
+ Technologies Used
 
 HTML5
 
 CSS3
+
+JavaScript
