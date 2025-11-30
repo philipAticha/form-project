@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Registration Form — Theme + Validation</title>
+
+  <!-- link to CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Theme toggle button (fixed top-right) -->
+  <button id="themeToggle" aria-label="Toggle theme" title="Toggle light/dark">
+    <span id="themeIcon">🌙</span>
+  </button>
+
+  <main class="container">
+    <h1>User Registration</h1>
+
+    <form id="mainForm" novalidate>
+      <label>Full Name
+        <input type="text" id="name" name="name" required>
+        <small class="error" id="nameError"></small>
+      </label>
+
+      <label>Email
+        <input type="email" id="email" name="email" required>
+        <small class="error" id="emailError"></small>
+      </label>
+
+      <label>Phone
+        <input type="text" id="phone" name="phone" placeholder="10 digits" required>
+        <small class="error" id="phoneError"></small>
+      </label>
+
+      <label>Password
+        <input type="password" id="password" name="password" required>
+        <small class="error" id="passwordError"></small>
+      </label>
+
+      <label>Confirm Password
+        <input type="password" id="cpassword" name="cpassword" required>
+        <small class="error" id="cpasswordError"></small>
+      </label>
+
+      <label>Address
+        <textarea id="address" name="address" rows="3"></textarea>
+        <small class="error" id="addressError"></small>
+      </label>
+
+      <label>
+        <input type="checkbox" id="terms"> I agree to the terms
+        <small class="error" id="termsError"></small>
+      </label>
+
+      <button type="submit" id="submitBtn">Submit</button>
+
+      <p id="successMsg" class="success" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <!-- script -->
+  <script src="script.js"></script>
+</body>
+</html>
